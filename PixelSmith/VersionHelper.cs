@@ -15,9 +15,7 @@ namespace PixelSmith.Helpers
 
       string ourVersion = string.Empty;
 
-      //if running the deployed application, you can get the version
-      //  from the ApplicationDeployment information. If you try
-      //  to access this when you are running in Visual Studio, it will not work.
+      
 
       if (System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed)
       {
